@@ -21,7 +21,6 @@ def send_request(host,port,request):
 def handle_connection(conn,addr):
     with conn:
         print(f"connected by {addr}")
-
         request=b''
         while True:
             data = conn.recv(BYTES_TO_READ)

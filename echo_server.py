@@ -3,7 +3,7 @@ from threading import Thread
 
 BYTES_TO_READ=4096
 HOST="127.0.0.1" 
-PORT=8081
+PORT=8080
 
 def handle_connection(conn,addr):
     with conn:
