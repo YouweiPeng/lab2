@@ -16,9 +16,7 @@ We can get the IP information and information in request of client socket.
 
 Q5: What is returned by recv() from the server after the client is done sending the HTTP request?
 
-It prints out the request in client scripts because the server just send back what client send to it.  
-Or recv() receives data from the socket, it is used for client and server to send data to each other. So after client done sending the HTTP request, the recv() will return the response that server
-gives to Client. we receive a empty byte string (b'')
+We receive a empty byte string (b'')
 
 Q6: Provide a link to your code on GitHub.
 
